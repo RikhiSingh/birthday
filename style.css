@@ -1,0 +1,185 @@
+/*==================== GOOGLE FONTS ====================*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+/*made by Rikhi Singh - rikhisingh.github.io*/
+
+html,body{
+  width: 100%;
+  overflow-x: hidden; 
+  
+} 
+
+
+
+/*==================== VARIABLES CSS ====================*/
+:root {
+    --header-height: 3rem;
+
+    /*========== Colors ==========*/
+    /* Change favorite color */
+    --hue-color: 142; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+
+    /* HSL color mode */
+    --first-color: hsl(var(--hue-color), 69%, 61%);
+    --first-color-second: hsl(var(--hue-color), 69%, 61%);
+    --first-color-alt: hsl(var(--hue-color), 57%, 53%);
+    --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
+    --title-color: hsl(var(--hue-color), 8%, 15%);
+    --text-color: hsl(var(--hue-color), 8%, 45%);
+    --text-color-light: hsl(var(--hue-color), 8%, 65%);
+    --input-color: hsl(var(--hue-color), 70%, 96%);
+    --body-color: hsl(var(--hue-color), 60%, 99%);
+    --container-color: #fff;
+    --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
+    --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
+
+    /*========== Font and typography ==========*/
+    --body-font: 'Poppins', sans-serif;
+
+    /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
+    --big-font-size: 2rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1.125rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+
+    /*========== Font weight ==========*/
+    --font-medium: 500;
+    --font-semi-bold: 600;
+
+    /*========== Margenes Bottom ==========*/
+    /* .25rem = 4px, .5rem = 8px, .75rem = 12px ... */
+    --mb-0-25: .25rem;
+    --mb-0-5: .5rem;
+    --mb-0-75: .75rem;
+    --mb-1: 1rem;
+    --mb-1-5: 1.5rem;
+    --mb-2: 2rem;
+    --mb-2-5: 2.5rem;
+    --mb-3: 3rem;
+
+    /*========== z index ==========*/
+    --z-tooltip: 10;
+    --z-fixed: 100;
+    --z-modal: 1000;
+}
+
+h1, h2, h3, h4 {
+    color: var(--title-color);
+    font-weight: var(--font-semi-bold);
+    color: var(--first-color-alt);
+}
+
+.countdown{
+    font-size: var(--h1-font-size);
+    color: var(--title-color);
+    color: var(--first-color-alt);
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    background-color: var(--body-color);
+  }
+
+.header-count {
+    width: 100%;
+    
+    position: fixed;
+    text-align: center;
+    background-color: var(--body-color);
+  }
+
+  body {
+    background-color: var(--hue-color);
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+
+h1 {
+    color: powderblue;
+    font-size: 48px;
+    margin-top: 50px;
+}
+
+#countdown {
+    color: #025102;
+    font-size: 36px;
+    margin-top: 150px;
+}
+
+body {
+  background-color: powderblue;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#cake {
+  margin-top: 200px;
+  align-self: center;
+  width: 50%;
+  height: 50%;
+  
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+#loon {
+  float: left;
+  width: 20%;
+  
+  margin-top: 240px;
+  margin-left: 20px;
+ 
+}
+
+
+#loon2 {
+  float: right;
+  width: 20%;
+ 
+  margin-top: 240px;
+  margin-right: 20px;
+
+
+  
+}
+  
+.full-screen-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -1;
+  float: right;
+}
+
+.full-screen-bg img {
+  min-height: 50%;
+  min-width: 50%;
+  float: right;
+}
+
+.full-screen-bg-left {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -1;
+  float: left;
+}
+
+.full-screen-bg-left img {
+  min-height: 50%;
+  min-width: 50%;
+  float: left;
+}
